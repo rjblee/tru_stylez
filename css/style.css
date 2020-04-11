@@ -1,0 +1,159 @@
+body {
+    padding-bottom: 20px;
+    color: #5a5a5a;
+    /* font-family: 'Tinos', serif; */
+    /* font-family: 'Rufina', serif; */
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Abril Fatface', cursive; */
+    /* font-family: 'Pattaya', sans-serif; */
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-brand {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.nav-signup {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.carousel {
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    height: 600px;
+    background-color: blue;
+}
+
+.carousel-item img{
+    position: absolute;
+    height: 1200px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.stylist {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team .col-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divider {
+    margin: 40px 0;
+}
+
+.content {
+    padding-bottom: 50px;
+}
+
+.content .col-7 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.content .col-5 {
+    text-align: center;
+}
+
+footer {
+    margin: 0 150px;
+
+}
+
+.pull-right {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+
+footer {
+    background: #222;
+    color: #aaa;
+    padding-top: 10px;
+  }
+  
+  footer a {
+    color: #aaa;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+  footer h3 {
+   color: #0894d1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+  }
+  
+  footer .three-column {
+   overflow: hidden;
+  }
+  
+  footer .three-column li{
+   width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+  }
+  
+  footer .socila-list {
+    overflow: hidden;
+    margin: 20px 0 10px;
+  }
+  
+  footer .socila-list li {
+    float: left;
+    margin-right: 3px;
+    opacity: 0.7;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  footer .socila-list li:hover {
+    opacity: 1;
+  }
+  
+  footer .img-thumbnail {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+  }
+  
+  footer .copyright {
+    padding: 15px 0;
+    background: #333;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  
+  footer .copyright span {
+    color: #0894d1;
+  }
