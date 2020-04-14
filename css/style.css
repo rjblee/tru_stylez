@@ -35,7 +35,7 @@ body {
 
 .carousel-item {
     height: 600px;
-    background-color: blue;
+    background-color: black;
 }
 
 .carousel-item img{
@@ -44,6 +44,7 @@ body {
     min-width: 100%;
     top: 0;
     left: 0;
+    opacity: 0.5;
 }
 
 .stylist {
