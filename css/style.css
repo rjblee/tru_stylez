@@ -1,11 +1,9 @@
 body {
     padding-bottom: 20px;
     color: #5a5a5a;
-    /* font-family: 'Tinos', serif; */
-    /* font-family: 'Rufina', serif; */
-    font-family: 'Lobster', cursive;
+    font-family: 'Tinos', serif;
+    /* font-family: 'Lobster', cursive; */
     /* font-family: 'Abril Fatface', cursive; */
-    /* font-family: 'Pattaya', sans-serif; */
     /* font-family: 'Permanent Marker', cursive; */
 }
 
