@@ -38,6 +38,10 @@ body {
     background-color: black;
 }
 
+.carousel-caption {
+    text-align: left;
+}
+
 .carousel-item img{
     position: absolute;
     height: 1200px;
