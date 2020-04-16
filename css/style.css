@@ -23,8 +23,7 @@ body {
     font-size: 1.4em;
 }
 
-.nav-signup {
-    padding-left: 30px;
+.nav-reserve {
     padding-right: 30px;
 }
 
@@ -72,16 +71,18 @@ body {
 
 .content {
     padding-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
-.content .col-7 {
-    padding-left: 60px;
-    padding-right: 60px;
+.content .col-lg-7 {
+    padding-left: 90px;
+    padding-right: 90px;
     padding-top: 90px;
     text-align: center;
 }
 
-.content .col-5 {
+.content .col-lg-5 {
     text-align: center;
 }
 
