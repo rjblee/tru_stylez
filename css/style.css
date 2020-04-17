@@ -28,12 +28,12 @@ body {
 }
 
 .carousel {
-    height: 600px;
+    height: 1000px;
     margin-bottom: 50px;
 }
 
 .carousel-item {
-    height: 600px;
+    height: 1000px;
     background-color: black;
 }
 
@@ -84,6 +84,11 @@ body {
 
 .content .col-lg-5 {
     text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
