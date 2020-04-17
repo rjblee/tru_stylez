@@ -1,5 +1,5 @@
 body {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     color: #5a5a5a;
     font-family: 'Tinos', serif;
     /* font-family: 'Lobster', cursive; */
@@ -30,6 +30,11 @@ body {
 .carousel {
     height: 1000px;
     margin-bottom: 50px;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
 }
 
 .carousel-item {
@@ -91,7 +96,6 @@ body {
   height: auto;
 }
 
-
 .pull-right {
     font-size: 1.5em;
     font-weight: bold;
@@ -115,7 +119,7 @@ footer a:hover {
 }
 
 footer .container .col-lg-4 {
-  padding: 0 70px;
+  padding: 0 100px;
 }
 
 footer h3 {
@@ -155,7 +159,7 @@ footer .socila-list li:hover {
 footer .img-thumbnail {
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid #444;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 footer .copyright {
