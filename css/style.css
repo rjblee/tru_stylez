@@ -27,18 +27,18 @@ body {
     padding-right: 30px;
 }
 
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
 .carousel {
-    height: 1000px;
+    height: 900px;
     margin-bottom: 50px;
 }
 
-.parallax-window {
-	min-height: 400px;
-	background: transparent;
-}
-
 .carousel-item {
-    height: 1000px;
+    height: 900px;
     background-color: black;
 }
 
