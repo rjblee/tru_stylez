@@ -19,7 +19,6 @@ body {
 .navbar-brand {
     padding-left: 60px;
     padding-right: 60px;
-    font-family: 'Bungee Inline', cursive;
     font-size: 1.4em;
 }
 
@@ -33,31 +32,32 @@ body {
 }
 
 .carousel {
-    height: 900px;
-    margin-bottom: 50px;
+  height: 900px;
+  margin-bottom: 50px;
 }
 
 .carousel-item {
-    height: 900px;
-    background-color: black;
+  height: 900px;
+  background-color: black;
 }
 
 .carousel-caption {
-    text-align: left;
+  text-align: left;
 }
 
 .carousel-item img{
-    position: absolute;
-    height: 1200px;
-    min-width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
+  width: 100%;
+  position: absolute;
+  height: 1200px;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
 }
 
 .stylist {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .team .col-4 {
@@ -81,8 +81,8 @@ body {
 }
 
 .content .col-lg-7 {
-    padding-left: 90px;
-    padding-right: 90px;
+    /* padding-left: 90px;
+    padding-right: 90px; */
     padding-top: 90px;
     text-align: center;
 }
@@ -90,6 +90,27 @@ body {
 .content .col-lg-5 {
     text-align: center;
 }
+
+@media (max-width: 660px) {
+  .div-1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .div-2 {
+      order: 2;
+  }
+  .div-3 {
+      order: 3;
+  }
+
+  .div-4 {
+    order: 4;
+  }
+
+}
+
+
 
 .img-fluid {
   max-width: 100%;
