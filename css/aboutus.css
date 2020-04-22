@@ -20,7 +20,7 @@
 
 
 
-/* 
+
 @media (max-width: 660px) {
     .div-1 {
         display: flex;
@@ -32,4 +32,4 @@
     .div-2 {
         order: 2;
     }
-} */
+}
