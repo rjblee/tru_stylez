@@ -103,6 +103,7 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      order: 1;
   }
 
   .div-2 {
