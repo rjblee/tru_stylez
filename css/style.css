@@ -87,6 +87,10 @@ body {
     margin-right: 80px;
 }
 
+.content-heading {
+  font-weight: bold;
+}
+
 .content .col-lg-7 {
     /* padding-left: 90px;
     padding-right: 90px; */
@@ -211,6 +215,7 @@ footer .img-thumbnail {
 
 .instagram {
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 footer .copyright {
