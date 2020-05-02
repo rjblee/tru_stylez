@@ -5,3 +5,12 @@
 .navbar-wrapper {
     margin-bottom: 50px;
 }
+
+.service-list {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#offer {
+    padding-top: 20px;
+}
