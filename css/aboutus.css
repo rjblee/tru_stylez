@@ -34,6 +34,8 @@
   
     .div-2 {
         order: 2;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .aboutus {
