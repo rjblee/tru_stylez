@@ -22,15 +22,34 @@
 
 
 
-@media (max-width: 660px) {
+@media (max-width: 415px) {
     .div-1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding-right: 0px;
+        padding-left: 0px;
         order: 1;
     }
   
     .div-2 {
         order: 2;
+    }
+
+    .aboutus {
+        padding-top: 150px;
+        text-align: center;
+    }
+    
+    .aboutus-header {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+
+    .aboutus-content {
+        font-size: 1.2em;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 20px;
     }
 }
