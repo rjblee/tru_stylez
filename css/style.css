@@ -71,6 +71,11 @@ body {
   margin-bottom: 50px;
 }
 
+.rounded-circle {
+  width: 140px;
+  height: 140px;
+}
+
 .team .col-4 {
     text-align: center;
     margin-bottom: 20px;
@@ -127,14 +132,17 @@ body {
   }
 
   .carousel {
-    margin-top: auto;
+    margin-top: 80px;
     padding-bottom: auto;
   }
 
   .carousel-item {
-    height: 320px;
-    padding-bottom: auto;
+    height: 275px;
+    /* revive this if doesn't work*/
+  }
 
+  .carousel-item .img-fluid{
+    height: 300px;
   }
 
   .navbar-brand {
@@ -152,6 +160,23 @@ body {
 
   .bg-clear {
     background-color: black;
+  }
+
+  .rounded-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .col-4 h2 {
+    font-size: 1.5em;
+  }
+
+  .col-4 p {
+    font-size: 0.8em;
+  }
+
+  .content .lead {
+    font-size: 1em;
   }
 
 }
