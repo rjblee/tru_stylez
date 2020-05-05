@@ -6,3 +6,17 @@
 h3 {
     font-weight: bold;
 }
+
+
+@media (max-width: 400px) {
+    .div-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        order: 1;
+    }
+  
+    .div-2 {
+        order: 2;
+    }
+}
