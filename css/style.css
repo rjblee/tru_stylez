@@ -26,6 +26,10 @@ body {
   size: 3em;
 }
 
+.nav-link {
+  margin-right: 10px;
+}
+
 .nav-reserve {
     padding-right: 30px;
 }
@@ -69,6 +73,7 @@ body {
 .stylist {
   text-align: center;
   margin-bottom: 50px;
+  font-weight: bold;
 }
 
 .rounded-circle {
@@ -111,11 +116,12 @@ body {
     text-align: center;
 }
 
-@media (max-width: 415px) {
+@media screen and (max-width: 450px) {
   .div-1 {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      padding-top: 40px;
       order: 1;
   }
 
@@ -132,12 +138,12 @@ body {
   }
 
   .carousel {
-    margin-top: 80px;
+    margin-top: 50px;
     padding-bottom: auto;
   }
 
   .carousel-item {
-    height: 275px;
+    height: 250px;
     /* revive this if doesn't work*/
   }
 
@@ -145,9 +151,22 @@ body {
     height: 300px;
   }
 
+  .carousel-caption {
+    font-size: 0.7em;
+  }
+
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
   .navbar-brand {
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .carousel-item h1 {
@@ -159,12 +178,12 @@ body {
   }
 
   .bg-clear {
-    background-color: black;
+    background-color: #343a40;
   }
 
   .rounded-circle {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
 
   .col-4 h2 {
@@ -178,6 +197,12 @@ body {
   .content .lead {
     font-size: 1em;
   }
+
+  .content .col-lg-7 {
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 }
 
