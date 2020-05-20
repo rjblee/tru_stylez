@@ -1,37 +1,37 @@
 body {
-    /* padding-bottom: 20px; */
-    color: #5a5a5a;
-    font-family: 'Tinos', serif;
-    /* font-family: 'Lobster', cursive; */
-    /* font-family: 'Abril Fatface', cursive; */
-    /* font-family: 'Permanent Marker', cursive; */
+  /* padding-bottom: 20px; */
+  color: #5a5a5a;
+  font-family: "Tinos", serif;
+  /* font-family: 'Lobster', cursive; */
+  /* font-family: 'Abril Fatface', cursive; */
+  /* font-family: 'Permanent Marker', cursive; */
 }
 
 .navbar-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 20;
-    font-size: 1.4em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  font-size: 1.4em;
 }
 
 .navbar-brand {
-    padding-left: 60px;
-    padding-right: 60px;
-    /* font-size: 2em; */
+  padding-left: 60px;
+  padding-right: 60px;
+  /* font-size: 2em; */
 }
 
-.logo {
-  size: 3em;
-}
+/*.logo {*/
+/* width: 100px;*/
+/*}*/
 
 .nav-link {
   margin-right: 10px;
 }
 
 .nav-reserve {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 .parallax-window {
@@ -59,7 +59,7 @@ body {
   text-align: left;
 }
 
-.carousel-item img{
+.carousel-item img {
   width: 100%;
   position: absolute;
   height: 1200px;
@@ -67,7 +67,6 @@ body {
   top: 0;
   left: 0;
   opacity: 0.5;
-
 }
 
 .stylist {
@@ -82,23 +81,23 @@ body {
 }
 
 .team .col-4 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .team p {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .divider {
-    margin: 40px 0;
+  margin: 40px 0;
 }
 
 .content {
-    padding-bottom: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
+  padding-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .content-heading {
@@ -106,31 +105,31 @@ body {
 }
 
 .content .col-lg-7 {
-    /* padding-left: 90px;
-    padding-right: 90px; */
-    padding-top: 90px;
-    text-align: center;
+  /* padding-left: 90px;
+  padding-right: 90px; */
+  padding-top: 90px;
+  text-align: center;
 }
 
 .content .col-lg-5 {
-    text-align: center;
+  text-align: center;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-device-width: 450px) {
   .div-1 {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding-top: 40px;
-      order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+    order: 1;
   }
 
   .div-2 {
-      order: 2;
+    order: 2;
   }
 
   .div-3 {
-      order: 3;
+    order: 3;
   }
 
   .div-4 {
@@ -147,7 +146,7 @@ body {
     /* revive this if doesn't work*/
   }
 
-  .carousel-item .img-fluid{
+  .carousel-item .img-fluid {
     height: 300px;
   }
 
@@ -155,14 +154,14 @@ body {
     font-size: 0.7em;
   }
 
-  .navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
+  /*.navbar {*/
+  /*  padding-top: 0px;*/
+  /*  padding-bottom: 0px;*/
+  /*}*/
 
-  .logo {
-    width: 200px;
-  }
+  /*.logo {*/
+  /*  width: 200px;*/
+  /*}*/
 
   .navbar-brand {
     padding-left: 0px;
@@ -203,10 +202,7 @@ body {
     padding-right: 0px;
     padding-left: 0px;
   }
-
 }
-
-
 
 .img-fluid {
   max-width: 100%;
@@ -214,19 +210,16 @@ body {
 }
 
 .pull-right {
-    font-size: 1.5em;
-    font-weight: bold;
+  font-size: 1.5em;
+  font-weight: bold;
 }
-
-
-/* --------------------  FOOTER -------------------- */
 
 footer {
   background: #222;
   color: #aaa;
   padding-top: 10px;
 }
-  
+
 footer a {
   color: #aaa;
 }
@@ -249,7 +242,7 @@ footer .three-column {
   overflow: hidden;
 }
 
-footer .three-column li{
+footer .three-column li {
   width: 33.3333%;
   float: left;
   padding: 5px 0;
