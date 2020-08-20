@@ -1,7 +1,7 @@
 # Tru Stylez Hair Salon
 
 ## Description
-Tru Stylez is a Metro Vancouver based hair salon, with its website responsive for mobile as well, built with HTML5, CSS3 and Bootstrap.
+Tru Stylez is a front-end hair salon, responsive website project built with HTML5, CSS3 and Bootstrap.
 
 
 ## Tech Stack
