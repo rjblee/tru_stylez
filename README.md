@@ -20,4 +20,4 @@ Tru Stylez is a Metro Vancouver based hair salon, with its website responsive fo
 ## Screenshots
 
 
-<img src="https://github.com/rjblee/dictionary_translator_app/blob/master/assets/screenshots/Screenshot_1595755205.png?raw=true" width="300">  <img src="https://github.com/rjblee/dictionary_translator_app/blob/master/assets/screenshots/Screenshot_1595754883.png?raw=true" width="300">
+<img src="https://github.com/rjblee/tru_stylez/blob/master/images/tru%20stylez.png?raw=true">
